@@ -33,9 +33,7 @@ button {
 	--accentcolor: var(--accent);
 	--vaccentcolor-hover: rgb(var(--accent));
 	--vaccentcolor-active: rgb(var(--accent));
-}
-
-.theme-dark,
+	 .theme-dark,
 .theme-light {
 	/* Discord vars */
 	--background-primary: var(--background-solid);
@@ -69,6 +67,8 @@ button {
 	--text-link: rgba(var(--accent), 1);
 	--focus-primary: rgba(var(--accent), 1);
 }
+}
+
 
 ::selection {
 	background-color: rgba(var(--accent-alt), 0.5);
